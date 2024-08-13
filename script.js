@@ -7,3 +7,4 @@ function setActive(element) {
     // Add 'active' class to the clicked link
     element.classList.add('active');
 }
+
