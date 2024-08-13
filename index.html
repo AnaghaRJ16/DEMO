@@ -3,11 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Webpage</title>
+    <title>School Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Webpage!</h1>
-    <p>This is a paragraph of text on my first webpage.</p>
-    <a href="https://www.example.com">Visit Example.com</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">RV UNIVERSITY</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#admission">Admission Procedure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#facilities">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#events">Events</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <a class="as">Study at the Best University in Bangalore</a>
+            <p class="text" id="home-text">
+                Equipped with 8 decades of rich legacy of RVEI, RV University is a top university in India that imparts high quality, interdisciplinary education at an affordable cost.
+            </p>
+        </section>
+        <section id="about">
+            <h1 class="section-title" id="about-title">About Us</h1>
+            <p class="text" id="about-text">The Genesis of
+                RV University
+                RV Educational Institutions (RVEI), governed by Rashtreeya Sikshana Samithi Trust (RSST), is recognised among the few value-based and quality-oriented educational groups in the country. The Trust endeavours to impart quality education to all strata of society.
+                
+                RV University is a State Private University which has been established in Karnataka State with RSST as the sponsoring body through Act No.11 of 2019, passed by the Karnataka Legislature.
+                
+                The Missions of RSST and RV University is “Excellence in Education with Societal Commitment”.
+                Since its inception, RVEI has evolved significantly with
+                Established Institutions
+                20 institutions from
+                kindergarten to post graduation
+                
+                
+                Accessible Education
+                Enabling people from all sections of society to access affordable and quality education in all spheres of knowledge including Arts, Humanities, Basic Sciences, Technology & Management, Teacher Education, Health Sciences & Legal Studies
+                
+                
+                Student Population
+                20000+ students enrolled in 20
+                RV Educational institutions
+            </p>
+        </section>
+        <section id="location">
+            <h1 class="section-title" id="location-title">Location</h1>
+            <p class="text" id="location-text"></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.750939562531!2d77.4987012!3d12.923722800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ee159ba3729%3A0x75a3463d510cf26e!2sR.%20V.%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1723523333391!5m2!1sen!2sin" width="600" height="450" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section id="admission">
+            <h1 class="section-title" id="admission-title">Admission Procedure</h1>
+            <p class="text" id="admission-text"></p>        
+        </section>
+        <section id="contact">
+            <h1 class="section-title" id="contact-title">Contact Us</h1>
+            <p class="text" id="contact-phone">Phone:</p>
+            <p class="text" id="contact-email">Email:</p>
+        </section>
+        <section id="facilities">
+            <a div="cam">Campus Amenities</a>
+            <h1 class="section-title" id="facilities-title">Facilities</h1>
+            <ul>
+                <li>Metro connectivity at doorstep</li>
+                <li>Library</li>
+                <li>Auditorium</li>
+                <li>Gymnasium</li>
+                <li>Bank</li>
+                <li>Post office</li>
+                <li>Food court</li>
+                <li>Dining Hall</li>
+                <li>Medical Centre</li>
+                <li>Counselling Centre</li>
+                <li>Recreational centre</li>
+                <li>Sports facilities & sports grounds</li>
+            </ul>
+        </section>
+        <section id="events">
+            <h1 class="section-title" id="events-title">Events</h1>
+            <p class="text" id="events-text">/</p>
+            <ul></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Our School. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
